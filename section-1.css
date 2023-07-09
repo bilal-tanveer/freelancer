@@ -1,0 +1,118 @@
+.img-section{
+    position: relative;
+    top: 3.4375rem;
+    left: 0;
+    right: 0;
+    height: 50rem;
+    background-color: rgb(54,69,79);
+    padding-bottom: 3.125rem;
+}
+.images{
+    position: absolute;
+}
+.img-1{
+    position: absolute;
+}
+.img-1 img{
+    width: 75rem;
+    margin-left: 6.25rem;
+}
+.img-2 img{
+    margin-top: 12.5rem;
+    margin-left: 31.25rem;
+    border-radius: 50%;
+    width: 18.75rem;
+}
+.data .p1{
+    color: pink;
+    font-size: 1.875rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 32.5rem;
+}
+.p2{
+    font-size: 3.125rem;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 28.125rem;
+    margin-top: -1.25rem;
+}
+.p3{
+    color: pink;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 30rem;
+    margin-top: -1.25rem;
+
+}
+.p3 span{
+    color: rgb(187,41,187)    ;
+}
+.p4{
+    color: rgb(255,233,0);
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 33.875rem;
+
+}
+
+@keyframes fade {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .world-animation {
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .word-animation{
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+  }
+  
+  .world-animation:nth-child(2) {
+    animation-delay: 2s;
+  }
+  .btn
+  {
+    margin-right: 3.125rem;
+    margin-left: 33.125rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .button1{
+    width: 8.125rem;
+    height: 3.125rem;
+    border: 3px solid gold;
+    background-color: purple;
+    border-radius: .625rem;
+    color: gold;
+    font-weight: bold;
+  }
+  .button2{
+    background-color: gold;
+    color:purple;
+    border: 3px solid purple;
+    font-weight: bold;
+    border-radius: .625rem;
+    width: 8.125rem;
+    height: 3.125rem;
+  }
+  .button1:hover{
+    background-color: gold;
+    color: purple;
+    border: 3px solid purple;
+  }
+  .button2:hover{
+    background-color:purple;
+    color: gold;
+    border: 3px solid gold;
+  }

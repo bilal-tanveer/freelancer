@@ -1,0 +1,108 @@
+.welcome{
+    padding-top: 1.875rem;
+    background-color: rgb(68, 80, 88);
+    margin-top: 3.4375rem;
+    padding-bottom: 3.125rem;
+    padding-bottom: 6.25rem;
+}
+.hea1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: .4375rem;
+    color: rgb(243, 180, 22);
+}
+.para1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(248, 219, 54);
+}
+
+.data1-1{
+    background-color: rgb(27, 27, 173);
+    color: silver;
+    margin-left: 3.125rem;
+    border: .125rem solid rgb(87, 84, 84);
+    border-radius: .625rem;
+    box-shadow: 0 0 1.875rem gray;
+    width: 19.375rem;
+}
+.data1-1:hover{
+    background-color:navy;
+}
+.data1-1 img{
+width: 4.375rem;
+margin-top: .625rem;
+margin-left: 1.25rem;
+}
+.info1{
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+    margin-top: .625rem;
+    margin-left: 1.25rem;
+}
+
+.data1-2{
+    background-color: rgb(0, 255, 21);
+    color: rgb(183,119,41);
+    margin-left: 3.125rem;
+    border: .125rem solid rgb(87, 84, 84);
+    border-radius: .625rem;
+    box-shadow: 0 0 1.875rem gray;
+    width: 19.375rem;
+}
+.data1-2:hover{
+    background-color:rgb(21, 216, 21) ;
+}
+.data1-2 img{
+width: 4.375rem;
+margin-top: .625rem;
+margin-left: 1.25rem;
+}
+.info1{
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+    margin-top: .625rem;
+    margin-left: 1.25rem;
+}
+
+.data1-3{
+    background-color: rgb(78,53,36) ;
+    color: rgb(229,158,109);
+    margin-left: 3.125rem;
+    border: .125rem solid rgb(87, 84, 84);
+    border-radius: .625rem;
+    box-shadow: 0 0 1.875rem gray;
+    width: 19.375rem;
+}
+.data1-3:hover{
+    background-color:  rgb(102, 67, 44);
+}
+.data1-3 img{
+width: 4.375rem;
+margin-top: .625rem;
+margin-left: 1.25rem;
+}
+.info1{
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+    margin-top: .625rem;
+    margin-left: 1.25rem;
+}
+.para2{
+    color: rgb(109, 105, 105);
+font-family: Arial, Helvetica, sans-serif;
+margin-top: .625rem;
+margin-left: 1.25rem;
+}
+.data-div{
+    margin-top: 4.375rem;
+    margin-right: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
